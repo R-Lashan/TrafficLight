@@ -1,0 +1,105 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+.box{
+    background: black;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    width: 20%;
+    height: 60%;
+}
+
+.heading{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#red{
+    background-color: red;
+    position: absolute;
+    border-radius: 50%;
+    top: 34%;
+    width: 6%;
+    height: 12%;
+    left: 27%;
+}
+
+#red:hover{
+    transform: scale(1.1);
+    border: 4px solid red;
+    box-shadow: 0 0 10px red;
+}
+
+#yellow{
+    background-color: yellow;
+    position: absolute;
+    border-radius: 50%;
+    top: 54%;
+    width: 6%;
+    height: 12%;
+    left: 27%;
+}
+
+#yellow:hover{
+    transform: scale(1.1);
+    border: 5px solid white;
+    border: 4px solid yellow;
+    box-shadow: 0 0 10px #e4e71d;
+    
+}
+
+#green{
+    background-color: green;
+    position: absolute;
+    border-radius: 50%;
+    top: 74%;
+    width: 6%;
+    height: 12%;
+    left: 27%;
+}
+
+#green:hover{
+    transform: scale(1.1);
+    border: 4px solid green;
+    box-shadow: 0 0 10px green;
+}
+
+
+.result {
+    background: white;
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    width: 40%;
+    height: 60%;
+    border: 10px solid black;
+}
+
+.result p{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    position: absolute;
+    top:37% ;
+    left: 20%;
+}
+
+.red{
+    color: red;
+}
+
+
+.yellow{
+    background-color: yellow;
+}
+
+.green-color{
+    color: green;
+}
