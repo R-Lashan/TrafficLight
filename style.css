@@ -103,3 +103,46 @@
 .green-color{
     color: green;
 }
+
+@media only screen and (max-width: 360px){
+    #green{
+
+        position: absolute;
+        top:15%;
+        width: 20%;
+        left: 70%;
+    }
+
+    #red{
+  
+        position: absolute;
+        top:15%;
+        width: 20%;
+        left: 20%;
+    }
+
+    #yellow{
+        position: absolute;
+        top:15%;
+        left: 45%;
+
+        width: 20%;
+    }
+
+    .box{
+        display: none;
+    }
+
+
+    .result {
+       
+        top: 30%;
+        left: 22%;
+        width: 65%;
+        height: 50%;
+ 
+    }
+    .result p{
+        left: 30%;
+    }
+}
